@@ -1,0 +1,65 @@
+body {
+       background-color: #123123; 
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #123123; 
+    padding: 10px 20px;
+    display: flex;
+   align-items: center;
+}
+header img {
+    height: 190px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 140px;
+  
+    font-size: 16px;
+}
+main {
+    padding: 50px 20px;
+}
+main h1 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+.options div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.options img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.cta-button {
+    background-color: #D92929; 
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+aside {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+
+    border-radius: 10px;
+}
+aside img {
+    width: 70%;
+}

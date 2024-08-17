@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><link rel="stylesheet" href="delivery.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.png" alt="Delizie">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <a href="sobre-nos.html">Sobre Nós</a>
+                <a href="cardapio.html">Cardápio</a>
+                <a href="delivery.html">Delivery</a>
+                <a href="contato.html">Contato</a>
+                <a href="cadrasto.html">Cadastre-se</a>
+                <a href="pesquisa.html">🔍</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Aberto - fecha às 01:00</h1>
+        <div class="search-bar">
+            <img class="banner-image" src="fundo-d.png" alt="Comida">
+            <input type="text" placeholder="Informe seu endereço">
+        </div>
+    </section>
+
+    <section class="menu">    
+        <nav class="menu-categories">
+            <ul>
+                <li><a href="#">Pratos do Dia</a></li>
+                <li><a href="#">Massas</a></li>
+                <li><a href="#">Pizzas</a></li>
+                <li><a href="#">Acompanhamentos</a></li>
+                <li><a href="#">Sobremesas</a></li>
+                <li><a href="#">Bebidas</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Pratos do Dia - Segunda</h3>
+                <div class="item-content">
+                    <p>Frango Assado<br>Mandioca, batata, cebola, calabresa, caldo de galinha, salsinha.</p>
+                    <span class="price">R$ 45,90</span>
+                    <img src="queijo.png" >
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <h3>Terça-Feira</h3>
+                <div class="item-content">
+                    <p>Moqueca de Tilápia<br>Tomate, cebola, pimentão, azeite de oliva, vinagre balsâmico.</p>
+                    <span class="price">R$ 35,00</span>
+                    <img src="pisto.png" >
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <h3>Quarta-Feira</h3>
+                <div class="item-content">
+                    <p>Costelinha de Porco<br>Batata, espinafre, pimenta, cebola, azeite de oliva.</p>
+                    <span class="price">R$ 39,00</span>
+                    <img src="misto.png">
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <h3>Quinta-Feira</h3>
+                <div class="item-content">
+                    <p>Spaghetti à Bolonhesa</p>
+                    <span class="price">R$ 28,00</span>
+                    <img src="macarom.png" >
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <h3>Sexta-Feira</h3>
+                <div class="item-content">
+                    <p>Lasanha</p>
+                    <span class="price">R$ 40,00</span>
+                    <img src="lazanha.png" alt="Lasanha">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="checkout">
+        <form>
+            <h3>Preencha seus dados para entrega</h3>
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" name="cpf">
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+            <div class="form-group">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco">
+            </div>
+
+            <div class="total">
+                <div class="total-info">
+                    <span>Total de produtos: R$ 157,90</span>
+                </div>
+                <div class="total-buttons">
+                    <a href="#" class="button">Adicionar</a>
+                    <a href="#" class="button cancel">Cancelar</a>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

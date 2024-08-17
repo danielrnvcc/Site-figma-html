@@ -1,0 +1,48 @@
+body {margin: 0;
+    padding: 0;
+    background: url('image-removebg-preview\ \(23\).png') ;
+    background-size: cover;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header a img {
+    height: 160px; 
+    width: auto;  
+}
+.container {
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+
+.search-container {
+    margin-top: 50px;
+}
+
+.search-bar {
+    padding: 15px;
+    width: 50%;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #b1b1b1;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
